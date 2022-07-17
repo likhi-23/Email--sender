@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-$^3kfal(*w5)kpo$dy9=p3-f)%=3vyqsn6lw%frtk!lkz^#+$e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS =['https://emailworks.azurewebsites.net']
 
 
 # Application definition
